@@ -1,0 +1,27 @@
+git从远程分支clone项目到本地，切换分支命令,其他常用命令
+==========================================================
+1.在git命令窗口输入git clone git@139.129.217.217:sg/sgsq_cms.git
+回车，即可克隆远程项目到本地。红色字体为远程分支的SSHkey，可以登录到gitlib远程库获取
+
+ 
+2.输入 git branch -a查看远程分支
+
+这里只有一个master分支，若还有企业分支，输入git checkout xxx即可切换分支
+3.git branch查看本地分支
+
+4.创建分支：
+git branch test
+5.把分支推到远程分支：
+git push origin test
+6.删除本地test分支：
+git branch -d test
+7.删除远程分支：
+git push origin --delete <branchName>
+8.重命名本地分支：
+git branch -m oldName newName
+ 9.合并dev代码到master分支（首先切换到master分支）：
+git merge dev
+ 10.查看文件状态：
+git status
+11.将文件添加到index：
+git add 文件路径（WebRoot\xxx\aaa.jsp
