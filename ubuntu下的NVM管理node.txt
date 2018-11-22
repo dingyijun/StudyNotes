@@ -1,28 +1,28 @@
-ubuntuÉÏ°²×°²¢Ê¹ÓÃnvm¹ÜÀínode°æ±¾
-2017Äê11ÔÂ15ÈÕ 23:09:08 zjw0742 ÔÄ¶ÁÊı£º742
-nvmÊÇÒ»¸ö·Ç³£²»´íµÄnode°æ±¾¹ÜÀíÆ÷£¬ÀàËÆÓÚrubyµÄrvm¡£
+ubuntuä¸Šå®‰è£…å¹¶ä½¿ç”¨nvmç®¡ç†nodeç‰ˆæœ¬
+2017å¹´11æœˆ15æ—¥ 23:09:08 zjw0742 é˜…è¯»æ•°ï¼š742
+nvmæ˜¯ä¸€ä¸ªéå¸¸ä¸é”™çš„nodeç‰ˆæœ¬ç®¡ç†å™¨ï¼Œç±»ä¼¼äºrubyçš„rvmã€‚
 
-ÆägithubµØÖ·Îªhttps://github.com/creationix/nvm¡£
+å…¶githubåœ°å€ä¸ºhttps://github.com/creationix/nvmã€‚
 
-´Ë´¦½éÉÜÒ»ÏÂÈçºÎÔÚubuntuÉÏ°²×°Ê¹ÓÃnvm¡£
+æ­¤å¤„ä»‹ç»ä¸€ä¸‹å¦‚ä½•åœ¨ubuntuä¸Šå®‰è£…ä½¿ç”¨nvmã€‚
 
-Ê×ÏÈ°²×°±ØÒªµÄ°ü¡£
+é¦–å…ˆå®‰è£…å¿…è¦çš„åŒ…ã€‚
 [plain] view plain copy
 sudo apt-get update  
 sudo apt-get install build-essential libssl-dev  
 
-È»ºó°²×°nvmµÄ½Å±¾£¬ÓĞÁ½ÖÖ·½·¨curl»òwget:
-Í¨¹ıcurl:
+ç„¶åå®‰è£…nvmçš„è„šæœ¬ï¼Œæœ‰ä¸¤ç§æ–¹æ³•curlæˆ–wget:
+é€šè¿‡curl:
 
 [plain] view plain copy
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash  
-Í¨¹ıwget:
+é€šè¿‡wget:
 [plain] view plain copy
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.31.4/install.sh | bash  
-¼ì²é°²×°¼°Ê¹ÓÃ£º
-×¢Òâ£¬´Ë´¦ĞèÒªÖØÆôterminalÖÕ¶Ë²ÅÄÜÉúĞ§¡£
-Ê¹ÓÃnvm --help²é¿´ÊÇ·ñ°²×°³É¹¦¡£
-Ê¹ÓÃnvm ls²é¿´ÒÑ¾­°²×°µÄ°æ±¾¡£
-Ê¹ÓÃnvm ls-remote²é¿´ËùÓĞÔ¶¶Ë°æ±¾¡£
-Ê¹ÓÃnvm install°²×°Ä³¸ö°æ±¾£¬Èçnvm install v5.3.0¡£
-Ê¹ÓÃnvm useÇĞ»»µ½Ä³¸ö°æ±¾£¬Èçnvm use v5.3.0Ê¹ÓÃ5.3.0£¬nvm use systemÊ¹ÓÃÏµÍ³°æ±¾¡£
+æ£€æŸ¥å®‰è£…åŠä½¿ç”¨ï¼š
+æ³¨æ„ï¼Œæ­¤å¤„éœ€è¦é‡å¯terminalç»ˆç«¯æ‰èƒ½ç”Ÿæ•ˆã€‚
+ä½¿ç”¨nvm --helpæŸ¥çœ‹æ˜¯å¦å®‰è£…æˆåŠŸã€‚
+ä½¿ç”¨nvm lsæŸ¥çœ‹å·²ç»å®‰è£…çš„ç‰ˆæœ¬ã€‚
+ä½¿ç”¨nvm ls-remoteæŸ¥çœ‹æ‰€æœ‰è¿œç«¯ç‰ˆæœ¬ã€‚
+ä½¿ç”¨nvm installå®‰è£…æŸä¸ªç‰ˆæœ¬ï¼Œå¦‚nvm install v5.3.0ã€‚
+ä½¿ç”¨nvm useåˆ‡æ¢åˆ°æŸä¸ªç‰ˆæœ¬ï¼Œå¦‚nvm use v5.3.0ä½¿ç”¨5.3.0ï¼Œnvm use systemä½¿ç”¨ç³»ç»Ÿç‰ˆæœ¬ã€‚
