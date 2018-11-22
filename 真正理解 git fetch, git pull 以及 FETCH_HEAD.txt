@@ -9,6 +9,7 @@
 4.【git push 和 commit-id】在每次本地工作完成后，都会做一个git commit 操作来保存当前工作到本地的repo， 此时会产生一个commit-id，这是一个能唯一标识一个版本的序列号。 在使用git push后，这个序列号还会同步到远程repo。
 在理解了以上git要素之后，分析git fetch 和 git pull 就不再困难了。 
  
+ 
 首先，git fetch 有四种基本用法
 1. git fetch            →→ 这将更新git remote 中所有的远程repo 所包含分支的最新commit-id, 将其记录到.git/FETCH_HEAD文件中
 2. git fetch remote_repo         →→ 这将更新名称为remote_repo 的远程repo上的所有branch的最新commit-id，将其记录。 
