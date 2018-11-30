@@ -1,0 +1,7 @@
+完美解决windows下安装NetBeans找不到jdk的处理方法
+2018年06月21日 08:45:33 墨也丶Moye 阅读数：5314
+一开始还不懂，这是参考别人的：
+
+装了jdk安装netbeans时提示无法找到jdk，得手动安装它的bundle文件才能解决（参考）。在cmd中按以下方式操作进行，首先转到该文件夹然后输入命令手动解压文件，命令如下 前面为文件名称netbeans-6.5.1-ml-java-windows.exe --extract然后手动执行安装bundle，     java -jar bundle.jar
+
+但是针对大部分情况这是没用的，因为本身就无法加载这个jdk，自然就无法安装，就算通过命令行打开安装bundle，也会出现如下情况：（而且就算是环境变量JAVA_HOME 那里改对位置也没用）
